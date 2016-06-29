@@ -32,6 +32,7 @@ public class JedisMaker {
 		StringBuilder sb = new StringBuilder();
 
 		BufferedReader br;
+
 		try {
                     br = new BufferedReader(new FileReader(filepath));
 		} catch (FileNotFoundException e1) {
